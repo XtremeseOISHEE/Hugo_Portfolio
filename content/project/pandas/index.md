@@ -1,13 +1,16 @@
 ---
-title: Pandas
-date: 2023-10-26
-external_link: https://github.com/pandas-dev/pandas
+title: Tic-Tac-Toe
+date: 2024-10-08
+external_link: https://codepen.io/Asma-Ul-Husna-Oishee/full/ExqRyQX
 tags:
-  - Hugo
-  - Wowchemy
-  - Markdown
+  - JavaScript
+  - CSS
+  - HTML
+
+featured: true 
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+
+Flexible and upgradeable HTML,CSS and JavaScript infused project.
 
 <!--more-->

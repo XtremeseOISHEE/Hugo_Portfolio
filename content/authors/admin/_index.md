@@ -1,17 +1,20 @@
 ---
 # Display name
-title: 吳健雄
+title: আসমা-উল-হুসনা ঐশী
+
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: 
+
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Asma-Ul-Husna 
+last_name: Oishee
+
 
 # Status emoji
 status:
-  icon: ☕️
+icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,167 +23,142 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Jahangirnagar University
+    url: https://juniv.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:asmaul4husna94oishee@gmail.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+    url: https://x.com/amber_94_oishee?t=dn-6cEqeDT4Zg7vERkkh2Q&s=07
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/clementine_494/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/XtremeseOISHEE
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://www.linkedin.com/in/asmaul-husna-oishee-57714a229/
+ 
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Algorithms and Data Structure
+  - Web-Development
+  - IOT & Robotics
+  - Object Oriented Programming
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: BSc. Computer Science and Engineering
+    institution: Jahangirnagar University
+    date_start: 2022-03-08
+    date_end: 2026-06-08
+    
+  - area: HSC 
+    institution: Feni Girls' Cadet College
+    date_start: 2018-09-21
+    date_end: 2020-11-21
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      GPA: 5.00
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: SSC
+    institution: Feni Girls' Cadet College
+    date_start: 2014-03-27
+    date_end: 2018-03-31
     summary: |
-      GPA: 3.4/4.0
+      GPA: 5.00
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Executive member (Batch Representative)
+    company_name: Ex Cadets Association of Feni
     company_url: ''
     company_logo: ''
     date_start: 2021-01-01
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      - Designing Logo, Banner, Poster for any upcoming events.
+      - Planning upcoming events actively.
+      - HR Department
+  - position: Graphics Designer
+    company_name: Freelancing
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2021-12-01
+    date_end: ''
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Designing Poster as per client's request.
+      - Designing Banner as per client's request.
+      - Designing Card as per client's request.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: C++
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Data Science
+      - name: Graphics Design
         description: ''
-        percent: 100
-        icon: chart-bar
+        percent: 70
+        icon: palette
       - name: SQL
         description: ''
         percent: 40
         icon: circle-stack
+      - name: IOT & Robotics
+        description: ''
+        percent: 60
+        icon: robot
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Travelling
         description: ''
         percent: 60
-        icon: person-simple-walk
-      - name: Cats
+        icon: map
+      - name: plants
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        icon: leaf
+      - name: Basketball
         description: ''
         percent: 80
-        icon: camera
+        icon: basketball
+      - name: Cooking
+        description: ''
+        percent: 80
+        icon: food
 
 languages:
   - name: English
+    percent: 95
+  - name: Bangla
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: Responsive Web-Design
+    url: https://www.freecodecamp.org/certification/Asma_Ul_Husna_Oishee/responsive-web-design
+    date: '2024-11-04'
+    awarder: freecodecamp
+    icon: 
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      I learnt HTML and CSS with this programme.
+
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Asma-Ul-Husna Oishee is an avid tech enthusiast passionate about exploring new ideas through research and hands-on projects.She has built projects using HTML, CSS, PHP,ReactJS, Hugo Templates, JavaScript, Java, C++, and C programming. My experience extends beyond coding— I've delved into robotics with Arduino Uno and ESP8266, designing innovative solutions for IoT and automation challenges.I love to travel, seeking inspiration from new places and embracing every opportunity to learn and grow. Driven by curiosity and a desire for continuous improvement,I'm always on the lookout for experiences that push me to think creatively and problem-solve in new ways.

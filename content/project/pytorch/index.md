@@ -1,13 +1,15 @@
 ---
-title: PyTorch
-date: 2023-10-26
-external_link: https://github.com/pytorch/pytorch
+title: Survey Form
+date: 2024-09-17
+external_link: https://codepen.io/Asma-Ul-Husna-Oishee/full/abeKZqy
 tags:
-  - Hugo
-  - Wowchemy
-  - Markdown
+  - HTML
+  - CSS
+  - FreeCodeCamp
+featured: true
 ---
 
-PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.
+
+FreeCodeCamp Responsive Web Designing certification's sub-project.
 
 <!--more-->
