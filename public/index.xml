@@ -34,6 +34,112 @@
     </item>
     
     <item>
+      <title>Curriculum Vitae</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>&lt;h2 id=&#34;profile-picture&#34;&gt;Profile Picture&lt;/h2&gt;
+&lt;img src=&#34;avatar.jpg&#34; alt=&#34;Profile Picture&#34; style=&#34;max-width: 300px; width: 100%; height: auto; display: block; margin: 0 auto;&#34; /&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Bachelor of Science in Computer Science and Engineering&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Institution&lt;/strong&gt;: Jahangirnagar University&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Duration&lt;/strong&gt;: 2022 - 2026&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Grade&lt;/strong&gt;: 3.75&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;HSC&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Institution&lt;/strong&gt;: Feni Girls&amp;rsquo; Cadet College&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Duration&lt;/strong&gt;: 2018 - 2020&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Grade&lt;/strong&gt;: GPA-5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;SSC&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Institution&lt;/strong&gt;: Feni Girls&amp;rsquo; Cadet College&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Duration&lt;/strong&gt;: 2016 - 2018&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Grade&lt;/strong&gt;: GPA-5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;
+&lt;h3 id=&#34;executive-member--batch-representative-&#34;&gt;Executive Member ( Batch Representative )&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Company&lt;/strong&gt;: Ex Cadets Association of Feni&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Duration&lt;/strong&gt;: June 2021 - Current&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;HR and planing and managing events.&lt;/li&gt;
+&lt;li&gt;Designing Banner, Poster, Invitation-Cards, T-shirts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Programming Languages&lt;/strong&gt;: Python, Java, C++, PHP, C, HTML, JS, CSS&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Database&lt;/strong&gt;: MySQL&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frameworks/Technologies&lt;/strong&gt;:  React, Node.js&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tools&lt;/strong&gt;: Git, XAMPP&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Graphics Design&lt;/strong&gt;: Adobe Illustrator, Adobe Photoshop&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;languages&#34;&gt;Languages&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;English&lt;/strong&gt;: Fluent&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bangla&lt;/strong&gt;: Native&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;extracurricular-activities&#34;&gt;Extracurricular Activities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Volunteer&lt;/strong&gt;: Organized National Collegiate Programming Contest.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Volunteer&lt;/strong&gt;: Organized Ex-CAF Reunion 2018&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Volunteer&lt;/strong&gt;: Participated FGCC Environment Restore Programming 2019&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Volunteer&lt;/strong&gt;: Organized Ex-CAF Iftar 2022&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Volunteer&lt;/strong&gt;: Organized Ex-CAF Iftar 2023&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Volunteer&lt;/strong&gt;: Organized Ex-CAF Iftar 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Club Membership&lt;/strong&gt;: JU Programming Club.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Club Membership&lt;/strong&gt;: IOT &amp;amp; Robotics Edge, IIT, JU.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;FGCC MUN&lt;/strong&gt;: Delegate of India&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Math Olympiad&lt;/strong&gt;: Participant&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bangla Extempore&lt;/strong&gt;:  Inter House Bangla Extempore Speaker&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inter House Athletics Competition&lt;/strong&gt;:  100 meter sprint, 200 meter sprint, shotput throw, 100 meter relay (4 x 100), 400 meter relay (4 x 400)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inter House Basketball Competition&lt;/strong&gt;: Runners Up- 2016,2017&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inter House Handball Competition&lt;/strong&gt;: Champion-2017&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;awards-and-certifications&#34;&gt;Awards and Certifications&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Certifications&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Basic Designer of IOT &amp;amp; Robotics&lt;/li&gt;
+&lt;li&gt;Basic Designer of Graphics (AI, PS)&lt;/li&gt;
+&lt;li&gt;Resposive WebDesign freeCodeCamp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Awards&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Champion in Bangla Essay&lt;/li&gt;
+&lt;li&gt;Runners Up in Bangla Extempore&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contact-information&#34;&gt;Contact Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a href=&#34;https://github.com/XtremeseOISHEE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github.com/username&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt;: &lt;a href=&#34;https://www.linkedin.com/in/asmaul-husna-oishee-57714a229/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;linkedin.com/in/username&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;: &lt;a href=&#34;mailto:asmaul4husna94oishee@gmail.com&#34;&gt;asmaul4husna94oishee@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Codeforces&lt;/strong&gt;: &lt;a href=&#34;https://codeforces.com/profile/kuru_loli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;codeforces.com/profile/username&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Twitter&lt;/strong&gt;: &lt;a href=&#34;https://x.com/amber_94_oishee?t=dn-6cEqeDT4Zg7vERkkh2Q&amp;amp;s=07&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@username&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Instagram&lt;/strong&gt;: &lt;a href=&#34;https://www.instagram.com/clementine_494/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@username&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Tic-Tac-Toe</title>
       <link>http://localhost:1313/project/pandas/</link>
       <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
@@ -47,6 +153,14 @@
       <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/pytorch/</guid>
       <description>&lt;p&gt;FreeCodeCamp Responsive Web Designing certification&amp;rsquo;s sub-project.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Product landing Page</title>
+      <link>http://localhost:1313/project/product/</link>
+      <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/product/</guid>
+      <description>&lt;p&gt;This project is sub-project of certification project of freeCodeCamp.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -148,7 +262,7 @@
       <link>http://localhost:1313/project/scikit/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/scikit/</guid>
-      <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This project explores Java.swing package and GUI based projects.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -278,7 +392,7 @@
 
 
 
-&lt;div id=&#34;chart-675423819&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-451827396&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -296,7 +410,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-675423819&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-451827396&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

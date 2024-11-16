@@ -20,5 +20,13 @@
       <description>&lt;p&gt;FreeCodeCamp Responsive Web Designing certification&amp;rsquo;s sub-project.&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Product landing Page</title>
+      <link>http://localhost:1313/project/product/</link>
+      <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/product/</guid>
+      <description>&lt;p&gt;This project is sub-project of certification project of freeCodeCamp.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

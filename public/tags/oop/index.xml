@@ -13,11 +13,19 @@
     </image>
     
     <item>
-      <title>Digital-Interactive Journal</title>
+      <title>Interactive Digital Journal</title>
       <link>http://localhost:1313/project/scikit/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/scikit/</guid>
-      <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This project explores Java.swing package and GUI based projects.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JU_CSE_FEST</title>
+      <link>http://localhost:1313/project/c&#43;&#43;/</link>
+      <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/c&#43;&#43;/</guid>
+      <description>&lt;p&gt;My First OOP based C++ project.This project tried to cover all the concepts of OOP.&lt;/p&gt;</description>
     </item>
     
   </channel>

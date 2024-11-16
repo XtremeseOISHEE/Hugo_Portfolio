@@ -7,7 +7,7 @@ main:
   - name: Bio
     url: /
     weight: 10
- 
+
   - name: Experience
     url: experience/
     weight: 20
@@ -15,5 +15,5 @@ main:
     url: projects/
     weight: 30
   - name: CV
-    url: teaching/
+    url: cv/
     weight: 40
