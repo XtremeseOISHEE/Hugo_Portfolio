@@ -4,19 +4,24 @@ date: 2024-11-17
 ---
 
 <div class="contacts-section" style="
-    background-image: url('33.svg'); 
-    background-size: cover; 
-    background-position: center;
-    padding: 20px; 
-    color: #fff;
+    background-color: #09774E; 
+    padding: 30px; 
+    color: #fff; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 90%; 
+    max-width: 800px; 
+    margin: 20px auto; 
+    text-align: left; 
 ">
-Connect with me through the following platforms:
-
-- **GitHub**: [github.com/XtremeseOISHEE](https://github.com/XtremeseOISHEE)
-- **LinkedIn**: [Asma Ul Husna Oishee](https://www.linkedin.com/in/asmaul-husna-oishee-57714a229/)
-- **Email**: [asmaul4husna94oishee@gmail.com](mailto:asmaul4husna94oishee@gmail.com)
-- **Codeforces**: [codeforces.com/profile/kuru_loli](https://codeforces.com/profile/kuru_loli)
-- **Twitter**: [@amber_94_oishee](https://x.com/amber_94_oishee?t=dn-6cEqeDT4Zg7vERkkh2Q&s=07)
-- **Instagram**: [@clementine_494](https://www.instagram.com/clementine_494/)
-- **Facebook**: [Asma Ul Husna Oishee](https://www.facebook.com/asma.ul.husna.oishee.2024/)
+    <h2>Connect with me through the following platforms:</h2>
+    <ul style="list-style-type: none; padding: 0;">
+        <li><strong>GitHub</strong>: <a href="https://github.com/XtremeseOISHEE" >github.com/XtremeseOISHEE</a></li>
+        <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/asmaul-husna-oishee-57714a229/" >Asma Ul Husna Oishee</a></li>
+        <li><strong>Email</strong>: <a href="mailto:asmaul4husna94oishee@gmail.com" >asmaul4husna94oishee@gmail.com</a></li>
+        <li><strong>Codeforces</strong>: <a href="https://codeforces.com/profile/kuru_loli" >codeforces.com/profile/kuru_loli</a></li>
+        <li><strong>Twitter</strong>: <a href="https://x.com/amber_94_oishee?t=dn-6cEqeDT4Zg7vERkkh2Q&s=07" >@amber_94_oishee</a></li>
+        <li><strong>Instagram</strong>: <a href="https://www.instagram.com/clementine_494/">@clementine_494</a></li>
+        <li><strong>Facebook</strong>: <a href="https://www.facebook.com/asma.ul.husna.oishee.2024/" >Asma Ul Husna Oishee</a></li>
+    </ul>
 </div>
