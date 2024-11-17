@@ -108,7 +108,7 @@ skills:
       - name: Graphics Design
         description: ''
         percent: 70
-        icon: palette
+        icon: chart-bar
       - name: SQL
         description: ''
         percent: 40
@@ -116,7 +116,7 @@ skills:
       - name: IOT & Robotics
         description: ''
         percent: 60
-        icon: robot
+        icon: code-bracket
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -124,19 +124,19 @@ skills:
       - name: Travelling
         description: ''
         percent: 60
-        icon: map
+        icon: 
       - name: plants
         description: ''
         percent: 100
-        icon: leaf
+        icon: 
       - name: Basketball
         description: ''
         percent: 80
-        icon: basketball
+        icon: 
       - name: Cooking
         description: ''
         percent: 80
-        icon: food
+        icon: 
 
 languages:
   - name: English

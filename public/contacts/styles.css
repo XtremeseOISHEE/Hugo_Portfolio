@@ -1,0 +1,7 @@
+.contacts-section {
+    background-image: url('/assets/media/stacked-peaks.svg'); /* Make sure to adjust the path */
+    background-size: cover;  /* Makes the image cover the entire section */
+    background-position: center;
+    padding: 20px;  /* Adjust as needed for spacing */
+    color: #fff;    /* Adjust text color for better contrast */
+}

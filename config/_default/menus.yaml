@@ -17,3 +17,6 @@ main:
   - name: CV
     url: cv/
     weight: 40
+  - name: Contacts
+    url: contacts/
+    weight: 50

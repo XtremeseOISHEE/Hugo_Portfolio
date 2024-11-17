@@ -34,6 +34,32 @@
     </item>
     
     <item>
+      <title>Contacts</title>
+      <link>http://localhost:1313/contacts/</link>
+      <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contacts/</guid>
+      <description>&lt;div class=&#34;contacts-section&#34; style=&#34;
+    background-image: url(&#39;33.svg&#39;); 
+    background-size: cover; 
+    background-position: center;
+    padding: 20px; 
+    color: #fff;
+&#34;&gt;
+Connect with me through the following platforms:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a href=&#34;https://github.com/XtremeseOISHEE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github.com/XtremeseOISHEE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt;: &lt;a href=&#34;https://www.linkedin.com/in/asmaul-husna-oishee-57714a229/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Asma Ul Husna Oishee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;: &lt;a href=&#34;mailto:asmaul4husna94oishee@gmail.com&#34;&gt;asmaul4husna94oishee@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Codeforces&lt;/strong&gt;: &lt;a href=&#34;https://codeforces.com/profile/kuru_loli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;codeforces.com/profile/kuru_loli&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Twitter&lt;/strong&gt;: &lt;a href=&#34;https://x.com/amber_94_oishee?t=dn-6cEqeDT4Zg7vERkkh2Q&amp;amp;s=07&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@amber_94_oishee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Instagram&lt;/strong&gt;: &lt;a href=&#34;https://www.instagram.com/clementine_494/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@clementine_494&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Facebook&lt;/strong&gt;: &lt;a href=&#34;https://www.facebook.com/asma.ul.husna.oishee.2024/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Asma Ul Husna Oishee&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Curriculum Vitae</title>
       <link>http://localhost:1313/cv/</link>
       <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
@@ -161,6 +187,14 @@
       <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/product/</guid>
       <description>&lt;p&gt;This project is sub-project of certification project of freeCodeCamp.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Product landing Page</title>
+      <link>http://localhost:1313/project/temp_humidity_sensor/</link>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/temp_humidity_sensor/</guid>
+      <description>&lt;p&gt;This project&amp;rsquo;s Arduino Code is demonstrated on behalf of operating DHT22.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -392,7 +426,7 @@
 
 
 
-&lt;div id=&#34;chart-451827396&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-245137986&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -410,7 +444,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-451827396&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-245137986&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

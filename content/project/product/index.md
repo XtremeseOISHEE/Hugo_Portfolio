@@ -6,7 +6,8 @@ tags:
   - HTML
   - CSS
   - FreeCodeCamp
-
+  
+featured: true 
 ---
 
 This project is sub-project of certification project of freeCodeCamp.
