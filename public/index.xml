@@ -194,7 +194,7 @@
     </item>
     
     <item>
-      <title>Product landing Page</title>
+      <title>Temperature and Humidity Sensor Based IOT Project</title>
       <link>http://localhost:1313/project/temp_humidity_sensor/</link>
       <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/temp_humidity_sensor/</guid>
@@ -430,7 +430,7 @@
 
 
 
-&lt;div id=&#34;chart-465782193&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-587236491&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -448,7 +448,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-465782193&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-587236491&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

@@ -62,11 +62,11 @@
     <lastmod>2024-09-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/temp_humidity_sensor/</loc>
+    <loc>http://localhost:1313/tags/temperature-and-humidity-sensor/</loc>
     <lastmod>2024-09-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/temperature-and-humidity-sensor/</loc>
+    <loc>http://localhost:1313/project/temp_humidity_sensor/</loc>
     <lastmod>2024-09-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
