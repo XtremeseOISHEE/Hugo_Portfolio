@@ -1,0 +1,17 @@
+{{ $person := (site.GetPage (printf "/authors/%s" (.wcBlock.content.username | default "admin"))).Params }}
+<section class="portfolio-skills" aria-labelledby="technical-skills-title">
+  <header class="skills-heading">
+    <h2 id="technical-skills-title">{{ .wcBlock.content.title | default "Technical skills" }}</h2>
+    <p>The tools and methods I use across research and engineering.</p>
+  </header>
+  <div class="skills-category-grid">
+    {{ range $person.skill_groups }}
+    <section class="skill-category" aria-label="{{ .name }}">
+      <h3>{{ .name }}</h3>
+      <ul class="skill-tags" role="list">
+        {{ range .items }}<li>{{ . }}</li>{{ end }}
+      </ul>
+    </section>
+    {{ end }}
+  </div>
+</section>

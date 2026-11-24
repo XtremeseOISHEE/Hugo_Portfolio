@@ -1,23 +1,20 @@
 ---
-title: 'Projects'
-date: 2024-05-19
+title: Projects
 type: landing
-
-design:
-  # Section spacing
-  spacing: '5rem'
-
-# Page sections
 sections:
-  - block: collection
-    content:
-      title: My Projects
-      text: I enjoy making projects. Here are a selection of projects that I have worked for in past 2 years.
-      filters:
-        folders:
-          - project
-    design:
-      view: article-grid
-      fill_image: true
-      columns: 3
+- block: collection
+  content:
+    title: Research & software projects
+    count: 0
+    text: Selected work across trustworthy AI, sensing, mobile and web development.
+      Open a project for my role, methods and limitations.
+    filters:
+      folders:
+      - project
+    sort_by: Weight
+    sort_ascending: true
+  design:
+    view: article-grid
+    columns: 2
+    fill_image: false
 ---

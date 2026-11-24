@@ -1,0 +1,7 @@
+.hugo-cache/
+.preview-build/
+.hugo_build.lock
+__pycache__/
+.pages-build/
+.local-backups/
+resources/_gen/

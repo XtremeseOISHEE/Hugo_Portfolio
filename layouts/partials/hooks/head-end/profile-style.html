@@ -1,0 +1,64 @@
+<style>
+.profile-page { --pp-muted:#536574; --pp-border:#dce5e8; --pp-card:#fff; --pp-tint:#f5f0e6; --pp-accent:#25446e; max-width:1120px; margin:auto; padding:28px 32px 72px; color:#172e3b; }
+.dark .profile-page { --pp-muted:#a9bdc8; --pp-border:#3a465b; --pp-card:#1b283d; --pp-tint:#293951; --pp-accent:#e4d2b3; color:#e5eff2; }
+.profile-intro { max-width:760px; margin-bottom:36px; }
+.profile-eyebrow { color:var(--pp-accent); font-size:.71rem; letter-spacing:.14em; font-weight:700; margin:0 0 15px; }
+.profile-intro h1 { font-size:clamp(2.5rem,5vw,3.6rem); font-weight:750; margin:0 0 20px; }
+.profile-lead { font-size:1.1rem; color:var(--pp-muted); line-height:1.8; }
+.profile-section { margin-top:42px; }
+.profile-page h2 { font-size:1.45rem; font-weight:700; margin:0 0 22px; line-height:1.4; }
+.profile-page h3 { font-size:1.1rem; font-weight:650; margin:0 0 12px; line-height:1.5; }
+.profile-page p { line-height:1.8; }
+.profile-card { padding:28px; border:1px solid var(--pp-border); background:var(--pp-card); border-radius:18px; min-width:0; }
+.profile-card > p:not(.profile-eyebrow), .profile-card li { color:var(--pp-muted); font-size:.94rem; }
+.profile-topics { list-style:none; display:flex; flex-wrap:wrap; gap:9px; margin:0 0 42px; padding:0; }
+.profile-topics li { font-size:.8rem; border:1px solid var(--pp-border); background:var(--pp-tint); border-radius:7px; padding:6px 12px; }
+.research-card-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; }
+.research-feature { display:flex; flex-direction:column; }
+.profile-status { align-self:flex-start; border-radius:6px; padding:4px 9px; font-size:.72rem; color:var(--pp-accent); background:var(--pp-tint); margin-bottom:22px; font-weight:600; }
+.research-feature h3 { font-size:1.4rem; }
+.profile-meta { color:var(--pp-muted); font-size:.84rem !important; margin-bottom:18px; }
+.research-feature ul { padding-left:18px; list-style:disc; margin:16px 0 24px; }
+.research-feature li + li { margin-top:8px; }
+.profile-text-link { color:var(--pp-accent); font-weight:600; font-size:.9rem; margin-top:auto; text-underline-offset:4px; }
+.profile-text-link:hover { text-decoration:underline; }
+.profile-prose { line-height:1.85; font-size:.96rem; overflow-wrap:anywhere; }
+.profile-prose p { margin:0 0 15px; }
+.profile-prose p:last-child { margin-bottom:0; }
+.profile-prose a { color:var(--pp-accent); text-decoration:underline; text-underline-offset:3px; }
+.profile-prose ul { padding-left:20px; list-style:disc; margin:12px 0 20px; }
+.profile-prose li { margin:7px 0; }
+.profile-prose h3 { margin:28px 0 12px; }
+.profile-prose h3:first-child { margin-top:0; }
+.profile-prose table { width:100%; border-collapse:collapse; margin:22px 0; font-size:.9rem; }
+.profile-prose th, .profile-prose td { text-align:left; padding:12px 8px; border-bottom:1px solid var(--pp-border); }
+.profile-prose th { color:var(--pp-muted); font-size:.78rem; }
+.education-cards { display:grid; gap:24px; }
+.education-card { display:grid; grid-template-columns:38px minmax(0,1fr); gap:20px; }
+.education-marker { width:36px; height:36px; display:grid; place-items:center; color:var(--pp-accent); background:var(--pp-tint); border-radius:10px; }
+.education-card h2 { margin-bottom:14px; }
+.education-card .profile-prose > p:first-child { color:var(--pp-accent); font-size:.94rem; }
+.profile-actions { display:flex; flex-wrap:wrap; gap:24px; align-items:center; margin-top:24px; font-size:.9rem; font-weight:600; }
+.profile-button { display:inline-flex; gap:28px; align-items:center; padding:11px 18px; border-radius:9px; background:var(--pp-accent); color:var(--pp-card); }
+.profile-print-note { color:var(--pp-muted); font-size:.78rem; margin-top:14px; }
+.cv-layout { display:grid; grid-template-columns:205px minmax(0,1fr); gap:32px; align-items:start; }
+.cv-index { position:sticky; top:100px; display:flex; flex-direction:column; gap:12px; font-size:.8rem; padding:16px 0; }
+.cv-index > span { font-size:.67rem; letter-spacing:.13em; color:var(--pp-muted); margin-bottom:8px; }
+.cv-index a:hover { color:var(--pp-accent); }
+.cv-sections { display:grid; gap:22px; }
+.cv-section { scroll-margin-top:100px; }
+.cv-section h2 { padding-bottom:15px; border-bottom:1px solid var(--pp-border); }
+.milestone-layout { display:grid; grid-template-columns:250px minmax(0,1fr); gap:55px; align-items:start; }
+.milestone-aside { padding:26px; border-radius:16px; background:var(--pp-tint); position:sticky; top:100px; }
+.milestone-aside h2 { font-size:1.2rem; margin-bottom:12px; }
+.milestone-aside p { font-size:.9rem; color:var(--pp-muted); margin-bottom:18px; }
+.milestone-list { list-style:none; margin:0; padding:0; }
+.milestone-list li { display:grid; grid-template-columns:110px minmax(0,1fr); gap:20px; padding:22px 0; border-top:1px solid var(--pp-border); }
+.milestone-year { color:var(--pp-accent); font-size:.8rem; font-weight:650; padding-top:4px; }
+.milestone-list h3 { font-size:1rem; margin-bottom:7px; }
+.milestone-list p { color:var(--pp-muted); font-size:.9rem; }
+.life-card-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; }
+@media(max-width:850px) { .cv-layout,.milestone-layout { grid-template-columns:minmax(0,1fr); gap:24px; } .cv-index { position:static; flex-direction:row; flex-wrap:wrap; gap:9px 15px; padding:16px; border:1px solid var(--pp-border); border-radius:12px; } .cv-index > span { width:100%; margin-bottom:2px; } .milestone-aside { position:static; } }
+@media(max-width:640px) { .profile-page { padding:12px 22px 48px; } .research-card-grid,.life-card-grid { grid-template-columns:minmax(0,1fr); } .profile-card { padding:22px; } .education-card { grid-template-columns:minmax(0,1fr); gap:15px; } .milestone-list li { grid-template-columns:minmax(0,1fr); gap:8px; } }
+@media print { .profile-page { color:#000; padding:0; max-width:none; --pp-muted:#333; --pp-border:#ccc; --pp-card:#fff; --pp-accent:#000; } .profile-actions,.profile-print-note,.cv-index,.profile-eyebrow { display:none !important; } .cv-layout { display:block; } .profile-intro h1 { font-size:24pt; } .profile-card { border:0; border-radius:0; padding:0; background:#fff; } .cv-section { margin-bottom:20px; } .profile-page h2 { font-size:14pt; break-after:avoid; } .profile-prose { font-size:10pt; } .profile-intro { margin-bottom:20px; } }
+</style>

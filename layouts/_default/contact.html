@@ -1,0 +1,46 @@
+{{ define "main" }}
+<main class="contact-page" id="contact-main">
+  <header class="contact-intro">
+    <p class="contact-eyebrow">CONTACT · DHAKA, BANGLADESH</p>
+    <h1>Let’s connect.</h1>
+    <p class="contact-lead">Have a research question, a project idea, or something you’d like to build together? I’d love to hear from you.</p>
+  </header>
+
+  <div class="contact-layout">
+    <section class="contact-email" aria-labelledby="email-title">
+      <span class="contact-envelope" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg>
+      </span>
+      <p class="contact-eyebrow">START A CONVERSATION</p>
+      <h2 id="email-title">Email me</h2>
+      <p>For research, collaboration and project enquiries, email is the best place to start.</p>
+      <a class="contact-email-address" href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
+      <a class="contact-email-button" href="mailto:{{ .Params.email }}">Write an email <span aria-hidden="true">↗</span></a>
+      <p class="contact-note">Master’s student in CSE<br>Jahangirnagar University</p>
+    </section>
+
+    <section class="contact-professional" aria-labelledby="professional-title">
+      <h2 id="professional-title">Find my work</h2>
+      <p class="contact-section-caption">Projects, professional updates and problem solving.</p>
+      <div class="contact-link-list">
+        {{ range .Params.professional }}
+        <a class="contact-link-card" href="{{ .url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .name }}: {{ .handle }} (opens in a new tab)">
+          <span class="contact-monogram" aria-hidden="true">{{ .monogram }}</span>
+          <span class="contact-link-text"><strong>{{ .name }}</strong><span>{{ .description }}</span><small>{{ .handle }}</small></span>
+          <span class="contact-arrow" aria-hidden="true">↗</span>
+        </a>
+        {{ end }}
+      </div>
+    </section>
+  </div>
+
+  <section class="contact-social" aria-labelledby="social-title">
+    <div><h2 id="social-title">A little more personal</h2><p>Life and interests beyond research and code.</p></div>
+    <div class="contact-social-links">
+      {{ range .Params.social }}
+      <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .name }}: {{ .handle }} (opens in a new tab)"><strong>{{ .name }} <span aria-hidden="true">↗</span></strong><span>{{ .handle }}</span></a>
+      {{ end }}
+    </div>
+  </section>
+</main>
+{{ end }}

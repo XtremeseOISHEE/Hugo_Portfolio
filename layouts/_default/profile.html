@@ -1,0 +1,53 @@
+{{ define "main" }}
+<main class="profile-page {{ if eq .Params.presentation "cv" }}profile-cv{{ end }}">
+  <header class="profile-intro">
+    <p class="profile-eyebrow">{{ .Params.eyebrow }}</p>
+    <h1>{{ .Title }}</h1>
+    <p class="profile-lead">{{ .Params.intro }}</p>
+    {{ if eq .Params.presentation "cv" }}
+    <div class="profile-actions"><a class="profile-button" href="{{ "uploads/Asma-Ul-Husna-Oishee-CV.pdf" | relURL }}" download>Download CV (PDF) <span>↓</span></a><a href="{{ "contacts/" | relURL }}">Contact me ↗</a></div>
+    <p class="profile-print-note">Two-page CV · Original PDF</p>
+    {{ end }}
+  </header>
+
+  {{ if eq .Params.presentation "research" }}
+  <ul class="profile-topics" aria-label="Research interests">{{ range .Params.topics }}<li>{{ . }}</li>{{ end }}</ul>
+  <section class="profile-section"><h2>Current research</h2><div class="research-card-grid">
+  {{ range .Params.research_cards }}
+    <article class="profile-card research-feature">
+      <span class="profile-status">{{ .status }}</span>
+      <h3>{{ .title }}</h3><p class="profile-meta">{{ .role }}</p>
+      <p>{{ .description }}</p>
+      <ul>{{ range .points }}<li>{{ . }}</li>{{ end }}</ul>
+      <a class="profile-text-link" href="{{ .url | relURL }}">Explore the research <span aria-hidden="true">↗</span></a>
+    </article>
+  {{ end }}
+  </div></section>
+  <section class="profile-section profile-card profile-manuscripts"><p class="profile-eyebrow">WORK IN PROGRESS</p><h2>Manuscripts</h2><div class="profile-prose">{{ with index (split .RawContent "## Manuscript status") 1 }}{{ . | $.RenderString }}{{ end }}</div></section>
+
+  {{ else if eq .Params.presentation "timeline" }}
+  <div class="milestone-layout">
+    <aside class="milestone-aside"><h2>More than a résumé.</h2><p>Writing, sport, creativity and service — the experiences behind my technical work.</p><a class="profile-text-link" href="{{ "cv/" | relURL }}">View my CV ↗</a></aside>
+    <section class="milestone-section" aria-labelledby="milestones-title"><h2 id="milestones-title">Early milestones</h2><ol class="milestone-list">
+    {{ range .Params.milestones }}<li><span class="milestone-year">{{ .year }}</span><div><h3>{{ .title }}</h3><p>{{ .description }}</p></div></li>{{ end }}
+    </ol></section>
+  </div>
+  <section class="profile-section"><h2>At university & beyond</h2><div class="life-card-grid">{{ range .Params.activities }}<article class="profile-card"><p class="profile-eyebrow">{{ .category }}</p><h3>{{ .title }}</h3><p>{{ .description }}</p></article>{{ end }}</div></section>
+
+  {{ else }}
+    {{ $parts := split .RawContent "\n## " }}
+    {{ if eq .Params.presentation "cv" }}
+    <div class="cv-layout">
+      <nav class="cv-index" aria-label="CV sections"><span>ON THIS PAGE</span>{{ range after 1 $parts }}{{ $heading := index (split . "\n") 0 }}<a href="#{{ $heading | anchorize }}">{{ $heading }}</a>{{ end }}</nav>
+      <div class="cv-sections">
+      {{ range after 1 $parts }}{{ $lines := split . "\n" }}{{ $heading := index $lines 0 }}<section class="profile-card cv-section" id="{{ $heading | anchorize }}"><h2>{{ $heading }}</h2><div class="profile-prose">{{ delimit (after 1 $lines) "\n" | $.RenderString }}</div></section>{{ end }}
+      </div>
+    </div>
+    {{ else }}
+    <div class="education-cards">
+      {{ range after 1 $parts }}{{ $lines := split . "\n" }}{{ $heading := index $lines 0 }}<section class="profile-card education-card"><span class="education-marker" aria-hidden="true">↗</span><div><h2>{{ $heading }}</h2><div class="profile-prose">{{ delimit (after 1 $lines) "\n" | $.RenderString }}</div></div></section>{{ end }}
+    </div>
+    {{ end }}
+  {{ end }}
+</main>
+{{ end }}

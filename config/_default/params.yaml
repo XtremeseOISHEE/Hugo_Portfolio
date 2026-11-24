@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
+  color: blue
 
 # SEO
 marketing:
@@ -14,7 +14,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
+    description: 'Asma-Ul-Husna Oishee — CSE master’s student at Jahangirnagar University. Explainable AI, evidence-grounded reasoning, wearable sensing and software engineering.'
     twitter: 'Amber_94'
   analytics:
     google_analytics: ''
@@ -40,7 +40,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {2024} Oishee. This work is licensed under {license}'
+    notice: '© {year} Oishee. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -49,7 +49,7 @@ footer:
 
 # Localization
 locale:
-  date_format: 'Jan 2, 2006'
+  date_format: '2006'
   time_format: '3:04 PM'
 
 # Site features

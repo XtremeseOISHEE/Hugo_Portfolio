@@ -1,90 +1,124 @@
 ---
-title: "Curriculum Vitae"
-date: 2024-11-16
-type: cv
-layout: cv
+title: Curriculum Vitae
+layout: profile
+presentation: cv
+eyebrow: CURRICULUM VITAE
+intro: Asma-Ul-Husna Oishee · Master’s student in Computer Science and Engineering · Dhaka, Bangladesh
+date: '2026-11-24'
 ---
 
+# Asma-Ul-Husna Oishee
 
-## Profile Picture
+## Profile
 
-<img src="avatar.jpg" alt="Profile Picture" style="max-width: 300px; width: 100%; height: auto; display: block; margin: 0 auto;" />
+CSE master’s student and software developer with research interests in explainable AI, evidence-grounded reasoning and intelligent systems. Hands-on experience in Android and web development, applied machine learning and wearable IoT prototypes.
 
 ## Education
 
-- **Bachelor of Science in Computer Science and Engineering**
-  - **Institution**: Jahangirnagar University
-  - **Duration**: 2022 - 2026
-  - **Grade**: 3.75
+**Jahangirnagar University, Bangladesh**
 
-- **HSC**
-  - **Institution**: Feni Girls' Cadet College
-  - **Duration**: 2018 - 2020
-  - **Grade**: GPA-5
+- **Master’s in Computer Science and Engineering:** September 2026–Present.
+- **BSc (Honours) in Computer Science and Engineering:** completed October 2026.
+- **CGPA: 3.75/4.00 · 160 credits.** Academic merit scholarships in the first and second years.
+- Selected coursework: AI, Machine Learning, Algorithms, Database Systems and Computational Geometry.
 
-- **SSC**
-  - **Institution**: Feni Girls' Cadet College
-  - **Duration**: 2016 - 2018
-  - **Grade**: GPA-5
+## Research experience
 
-## Experience
+### Multi-Hop Explainable AI for Clinical Decision Support
 
-### Executive Member ( Batch Representative )
-- **Company**: Ex Cadets Association of Feni
-- **Duration**: June 2021 - Current
-- **Responsibilities**:
-  - HR and planing and managing events.
-  - Designing Banner, Poster, Invitation-Cards, T-shirts.
+**Student researcher · January 2026–Present**
+**Supervisor:** Dr. Md. Ezharul Islam
 
-## Skills
+Designed a retrieval-augmented generation pipeline and per-hop clinical evidence verification using Python and ChromaDB. Conducted preliminary evaluations of routing, out-of-scope handling, evidence support and reasoning depth. First-author journal manuscript in preparation.
 
-- **Programming Languages**: Python, Java, C++, PHP, C, HTML, JS, CSS
-- **Database**: MySQL
-- **Frameworks/Technologies**:  React, Node.js
-- **Tools**: Git, XAMPP
-- **Graphics Design**: Adobe Illustrator, Adobe Photoshop
+### BeyondFall — BPPV-Aware Wearable Fall Detection
+
+**Researcher and primary system developer · May 2026–Present**
+
+Integrated ESP32 firmware, inertial sensing, machine learning, Firebase and an Android companion app for pre-fall warnings, episode logging and SOS alerts. First author of an unpublished manuscript; demonstrated at JU Innovation Fair 2026. Experimental prototype, not clinically validated.
+
+[Android app](https://github.com/XtremeseOISHEE/Beyond-Fall) · [Firmware](https://github.com/XtremeseOISHEE/Beyond-Fall-Arduino-Code-for-IOT-)
+
+## Technical skills
+
+- **Programming:** Python, Java, Kotlin, C, C++, JavaScript, SQL, HTML/CSS.
+- **Software:** Jetpack Compose, MVVM, Django, React, Firebase, Git, Linux, Android Studio.
+- **AI/Data:** RAG, evidence verification, scikit-learn, TensorFlow/Keras, pandas, NumPy, ChromaDB.
+- **Engineering:** ESP32, Arduino, IMU integration, OOAD, UML, Visual Paradigm, Draw.io.
+- **Additional hands-on experience:** Docker, FastAPI, Node.js, MongoDB, Go.
+
+## Certifications & training
+
+- **Responsive Web Design — freeCodeCamp.** [Credential](https://www.freecodecamp.org/certification/Asma_Ul_Husna_Oishee/responsive-web-design)
+- **Human Research — Data or Specimens Only Research**, CITI Program, Stage 1 Basic Course (2026).
+- **Internet of Things (80 hours)**, IIT, Jahangirnagar University, EDGE Project (2024).
+- **Graphic Design — Skills for Employment Investment Program (SEIP).**
+- **Computer Application with MS Office, Networking & Hardware Maintenance**, Bangladesh-German Technical Training Centre, BMET (2018; Grade A+).
+
+## Selected software and engineering projects
+
+### FlowOrbit — Android Productivity App · 2025
+
+*Kotlin, Jetpack Compose, MVVM*
+
+Primary Android developer; implemented focus mode, app blocking, task lists, productivity analytics, user profiles, gamification, title updates and a Gemini-powered assistant.
+
+[Repository](https://github.com/XtremeseOISHEE/FlowOrbit)
+
+### Tender Document Package Builder · 2026
+
+*React, Vite, PDF.js, pdf-lib*
+
+Built browser-based document validation and PDF assembly using structured JSON requirements, SHA-256 duplicate detection and client-side PDF processing.
+
+[Repository](https://github.com/XtremeseOISHEE/devfest-Oishee_494)
+
+### ArtNest — Art E-Commerce Platform · 2025
+
+*Python, Django*
+
+Primary contributor to a team-built artwork e-commerce platform supporting artist and buyer workflows, artwork management, orders and administration.
+
+[Repository](https://github.com/XtremeseOISHEE/Art-Gallery)
+
+### Jotno — Baby Day Care System Design · 2024
+
+*OOAD, UML, Visual Paradigm, Draw.io*
+
+Collaborative object-oriented system design project; contributed to UML-based design and modelling.
+
+### RotaShift — Crop Rotation Prototype · 2026
+
+*JavaScript, Python*
+
+Implemented a bilingual calendar constraint engine integrating 10,227 NASA POWER climate records; 36 automated tests passed during development.
+
+[Repository](https://github.com/XtremeseOISHEE/RotaShift)
+
+### AirSense Dhaka — PM2.5 Forecasting · 2026
+
+*Python, pandas, scikit-learn, TensorFlow/Keras*
+
+Independently implemented forecasting and analysis of 52,262 hourly observations; compared four models using a chronological split (best MLP: R² = 0.8239).
+
+[Repository](https://github.com/XtremeseOISHEE/Air-Index-Prediction)
+
+## Additional projects
+
+- **Firefighting Robot (2025):** ESP32/Arduino robotics. [Repository](https://github.com/XtremeseOISHEE/Firefighting-Robot-with-ESP32)
+- **Interactive Digital Journal (2023):** Java Swing and JDBC desktop application.
+- **Event Management System (2022):** C++ object-oriented application.
+- **Vibe Coding Mock Web Application (2026):** [Deployment](https://mocktestvibecoding.netlify.app/)
+- **Other projects:** Hugo portfolio, QuickSnap card game, Calendar — A Journal, joystick-controlled game, BUP CSE Fest project, electronic timer and amplifier circuits.
+
+## Leadership, awards & activities
+
+- **President, ExCA-JU** (September 2026–Present); former **Cultural Secretary** (2025–September 2026).
+- **Executive Member and Batch Representative, ExCAF**; NCPC volunteer.
+- JU academic merit scholarships; SSC and HSC Education Board Scholarships.
+- **Duke of Edinburgh’s International Award, Bronze** (2018); second prize, **OZi Perfumes logo design** (2025); runner-up, **Bangla extempore speech** (2019).
+- **ICPC, NCPC, ICPC Algo Queen (2023)** and **AI Dev Fest Vibe Coding Competition (2026)** participation.
 
 ## Languages
 
-- **English**: Fluent
-- **Bangla**: Native
-
-## Extracurricular Activities
-
-- **Volunteer**: Organized National Collegiate Programming Contest.
-- **Volunteer**: Organized Ex-CAF Reunion 2018
-- **Volunteer**: Participated FGCC Environment Restore Programming 2019
-- **Volunteer**: Organized Ex-CAF Iftar 2022
-- **Volunteer**: Organized Ex-CAF Iftar 2023
-- **Volunteer**: Organized Ex-CAF Iftar 2024
-- **Club Membership**: JU Programming Club.
-- **Club Membership**: IOT & Robotics Edge, IIT, JU.
-- **FGCC MUN**: Delegate of India
-- **Math Olympiad**: Participant
-- **Bangla Extempore**:  Inter House Bangla Extempore Speaker
-- **Inter House Athletics Competition**:  100 meter sprint, 200 meter sprint, shotput throw, 100 meter relay (4 x 100), 400 meter relay (4 x 400)  
-- **Inter House Basketball Competition**: Runners Up- 2016,2017
-- **Inter House Handball Competition**: Champion-2017
-
-
-## Awards and Certifications
-
-- **Certifications**: 
-  - Basic Designer of IOT & Robotics 
-  - Basic Designer of Graphics (AI, PS) 
-  - Resposive WebDesign freeCodeCamp
-
-- **Awards**:
-  - Champion in Bangla Essay
-  - Runners Up in Bangla Extempore
-
-## Contact Information
-
-- **GitHub**: [github.com/username](https://github.com/XtremeseOISHEE)
-- **LinkedIn**: [linkedin.com/in/username](https://www.linkedin.com/in/asmaul-husna-oishee-57714a229/)
-- **Email**: asmaul4husna94oishee@gmail.com
-- **Codeforces**: [codeforces.com/profile/username](https://codeforces.com/profile/kuru_loli)
-- **Twitter**: [@username]( https://x.com/amber_94_oishee?t=dn-6cEqeDT4Zg7vERkkh2Q&s=07)
-- **Instagram**: [@username](https://www.instagram.com/clementine_494/)
-
-
+Bangla (native); English (university medium of instruction).
